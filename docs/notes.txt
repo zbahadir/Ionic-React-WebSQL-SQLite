@@ -1,0 +1,24 @@
+
+// For plarform check
+npm install react-native
+npm install @types/react-native
+
+npm install capacitor-sqlite
+
+
+if(isPlatform('android')) {
+  console.log('Android');  
+}
+
+if(isPlatform('capacitor')) {
+  console.log('Capacitor');  
+}
+
+/*
+0: "android"
+1: "phablet"
+2: "cordova"
+3: "capacitor"
+4: "mobile"
+5: "hybrid"
+*/
